@@ -1,6 +1,6 @@
 #https://github.com/huggingface/diffusers/tree/main/examples/dreambooth
 export MODEL_NAME="runwayml/stable-diffusion-v1-5"
-export INSTANCE_DIR="/kaggle/input/valentinapiner48"
+export INSTANCE_DIR="/kaggle/input/"
 export OUTPUT_DIR="/kaggle/working/checkpoints"
 
 accelerate launch train_lora_dreambooth.py \
