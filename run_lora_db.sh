@@ -7,7 +7,7 @@ accelerate launch train_lora_dreambooth.py \
   --pretrained_model_name_or_path=$MODEL_NAME  \
   --instance_data_dir=$INSTANCE_DIR \
   --output_dir=$OUTPUT_DIR \
-  --instance_prompt="a photo of valentinapiner" \
+  --instance_prompt="a photo of " \
   --resolution=512 \
   --train_batch_size=1 \
   --gradient_accumulation_steps=1 \
